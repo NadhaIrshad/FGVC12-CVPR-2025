@@ -14,6 +14,9 @@ Integrating AI into this process promises to enhance efficiency and enable broad
 - **Goal:** Predict all plant species present in each quadrat image.
 - **Main challenge:** Overcoming the domain shift between individual plant images and multi-species quadrat images.
 
+  ![image](https://github.com/user-attachments/assets/f0802139-5ae6-4f3b-b4d9-68fe7459ccd5)
+
+
 ## Evaluation Metric
 - The primary metric is the **macro-averaged F1 score per sample** (each quadrat image), balancing precision and recall.
 - Scores are averaged first per transect (a linear sampling area composed of multiple quadrats) and then across all transects to reduce spatial bias.
